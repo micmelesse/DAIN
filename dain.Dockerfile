@@ -1,1 +1,2 @@
-FROM pytorch/pytorch
+FROM continuumio/anaconda
+
