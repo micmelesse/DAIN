@@ -1,8 +1,4 @@
-# build extensions
-cd my_package 
-./build.sh
+set -e 
 
-cd ..
-
-cd PWCNet/correlation_package_pytorch1_0
-./build.sh
+bash scripts/build_my_package.sh
+bash scripts/build_correlation_package.sh

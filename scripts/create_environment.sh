@@ -1,2 +1,3 @@
-# conda config --set restore_free_channel true
+set -e
+
 conda env create -f ./environment.yaml
