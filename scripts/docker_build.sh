@@ -5,4 +5,5 @@ FILE=`basename "$FILE_PATH"`
 FILENAME="${FILE%.*}"
 
 # docker build --network=host -t dain -f dain.Dockerfile .
-docker build --network=host -t $FILENAME -f $FILE_PATH .
+# docker build --network=host -t $FILENAME -f $FILE_PATH .
+docker build --network=host -t dain .
